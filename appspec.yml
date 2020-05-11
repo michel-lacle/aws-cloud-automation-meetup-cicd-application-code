@@ -1,0 +1,6 @@
+# describe how we deploy our app
+version: 0.0
+os: linux
+files:
+  - source: Source
+    destination: /var/www/html
